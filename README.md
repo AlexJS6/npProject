@@ -14,7 +14,7 @@
 - [project objectives link](https://github.com/becodeorg/BXL-Swartz-3-21/tree/master/09-OOP-npProject)
 
 ## My Project
-For this project I will be doing a Tourist site that will look up flights, hotels and car rental and compare the prices.
+For this project I will be doing a Tourist site that will look up flights, hotels and car rental and compare the prices.   
 I will use, NodeJs for the backend.
 
 ## My Figma  
