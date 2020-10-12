@@ -24,5 +24,7 @@ For this project I will be doing a Tourist site that will look up flights, hotel
 
 ![Project Model]('backend/public/images/white_board_project.jpg')
 
+### Work in Progress ... 
+
 
 
