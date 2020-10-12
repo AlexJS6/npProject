@@ -18,11 +18,11 @@ For this project I will be doing a Tourist site that will look up flights, hotel
 
 ## My Figma  
 
-![project Figma]('backend/public/images/Figma.png')
+![project Figma](backend/public/images/Figma.png)
 
 ## My Model
 
-![Project Model]('backend/public/images/white_board_project.jpg')
+![Project Model](backend/public/images/white_board_project.jpg)
 
 ### Work in Progress ... 
 
