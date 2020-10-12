@@ -15,6 +15,7 @@
 
 ## My Project
 For this project I will be doing a Tourist site that will look up flights, hotels and car rental and compare the prices.
+I will use, NodeJs for the backend.
 
 ## My Figma  
 
