@@ -49,3 +49,10 @@
     font-size: large;
     box-shadow: 2px 2px 2px gray;
 }
+#register_button {
+    border-radius: 5px;
+    background-color: #fff;
+    height: 40px;
+    width: 120px;
+    font-size: large;
+}
