@@ -14,15 +14,18 @@
 - [project objectives link](https://github.com/becodeorg/BXL-Swartz-3-21/tree/master/09-OOP-npProject)
 
 ## My Project
-For this project I will be doing a Tourist site that will look up flights, hotels and car rental and compare the prices.
+For this project I will be doing a Tourist site that will look up flights, hotels and car rental and compare the prices.   
+I will use, NodeJs for the backend.
 
 ## My Figma  
 
-![project Figma]('backend/public/images/Figma.png')
+![project Figma](backend/public/images/Figma.png)
 
 ## My Model
 
-![Project Model]('backend/public/images/white_board_project.jpg')
+![Project Model](backend/public/images/white_board_project.jpg)
+
+### Work in Progress ... 
 
 
 
