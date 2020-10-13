@@ -33,7 +33,7 @@ app.use((req, res, next) => {
     next();
 });
 
-app.use(bodyParser.json());
+app.use(express.urlencoded({ extended: false }));
 
 
 app.use('/user', userRoutes);
