@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    <!-- font awesome CDN-->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- MY CSS-->
+    <link rel="stylesheet" href="../../public/style/style.css">
+    
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    
+    </head>
+<body>
+    <!-- NAVBAR START-->
+    <div class="container-fluid"></div>
+        <div class="row" id="navbar_row" style="border: 1px solid gray;">
+            <div class="col-xs-5 pl-4 pt-3">
+                <h2>Searcher</h2>
+            </div>
+            <div class="col-xs-1 offset-3 mt-4 px-2">
+                <a href="sign_in.html">
+                    <i class="fas fa-search fa-lg" ></i>
+                </a>
+            </div>
+            <div class="col-xs-1 mt-4 px-2">
+                <a href="index.html">
+                    <i class="fas fa-suitcase fa-lg"></i>
+                </a>
+            </div>
+            <div class="col-xs-1 mt-4 px-2">
+                <a href="registration.html">
+                    <i class="fas fa-user-circle fa-lg"></i>
+                </a>
+            </div>
+        </div>
+    
+    <!-- NAVBAR END-->
+    
+    <!--SIGN IN FORM START-->
+    <form action="session/signup" method="GET">
+        <label for="email">Email:</label>
+        <input type="email" name="email"><br>
+        <label for="password">Password:</label>
+        <input type="password" name="password"><br>
+        <button type="submit">Sign In</button>
+    </form>
+    <!--SIGN IN FORM END-->
+</body>
+</html>
