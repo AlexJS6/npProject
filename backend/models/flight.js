@@ -1,4 +1,14 @@
 const axios = require('axios');
+//https://blog.api.rakuten.net/skyscanner-api-tutorial/
+
+
+let country  = req.body.country;
+let currency = req.body.currency;
+let locale = req.body.locale;
+let depart = req.body.origin;
+let destination = req.body.destination;
+let partial_date = req.body.date;
+
 
 var options = {
   method: 'GET',
