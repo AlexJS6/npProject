@@ -1,5 +1,6 @@
 const axios = require('axios');
 
+
 const BASE_URL = `https://skyscanner-skyscanner-flight-search-v1.p.rapidapi.com`
 module.exports = {
     getCompatibility: (place, currency, locale, origin, destination, partial_date) => axios({

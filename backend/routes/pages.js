@@ -7,5 +7,6 @@ router.get('/', pageCtrl.getIndex);
 router.get('/index', pageCtrl.getIndex);
 router.get('/registration', pageCtrl.getRegistration);
 router.get('/signin', pageCtrl.getSignIn);
+router.get('/flight', pageCtrl.getFlight)
 
 module.exports = router;

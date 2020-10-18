@@ -9,6 +9,7 @@ const mongoose = require('mongoose'); // Set up your database
 
 const pageRoutes = require('./routes/pages');
 const userRoutes = require('./routes/user');
+const flightRoutes = require('./routes/rapidapi');
 
 const app = express();
 
@@ -38,6 +39,7 @@ app.use(express.urlencoded({ extended: false }));
 
 app.use('/user', userRoutes);
 app.use('/', pageRoutes);
+//app.use('/rapidapi', flightRoutes);
 
 
 module.exports = app;
