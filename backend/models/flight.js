@@ -1,21 +1,17 @@
 const axios = require('axios');
 
+var options = {
+  method: 'GET',
+  url: `https://rapidapi.p.rapidapi.com/apiservices/browsequotes/v1.0/${country}/${currency}/${locale}/${depart}/${destination}/${partial_date}`,
+  params: {inboundpartialdate: '2019-12-01'},
+  headers: {
+    'x-rapidapi-host': 'skyscanner-skyscanner-flight-search-v1.p.rapidapi.com',
+    'x-rapidapi-key': '089d02225bmshefa31c6ca5f2456p154c11jsnebd679e760b4'
+  }
+};
 
-const BASE_URL = `https://skyscanner-skyscanner-flight-search-v1.p.rapidapi.com`
-module.exports = {
-    getCompatibility: (place, currency, locale, origin, destination, partial_date) => axios({
-        method:"GET",
-        url : BASE_URL + `/zodiac_compatibility/result`,
-        headers: {
-            "content-type":"application/x-www-form-urlencoded",
-            "x-rapidapi-host":"astrology-horoscope.p.rapidapi.com",
-            "x-rapidapi-key": "yourapikey"
-        },
-        params: {
-            mystic_dob: yourBirthday,
-            mystic_dob2: theirBirthday,
-            mystic_name: yourName,
-            mystic_name2: theirName
-        }
-    })
-}
+axios.request(options).then(function (response) {
+	console.log(response.data);
+}).catch(function (error) {
+	console.error(error);
+});
