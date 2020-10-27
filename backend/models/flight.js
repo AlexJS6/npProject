@@ -2,13 +2,6 @@ const axios = require('axios');
 //https://medium.com/rakuten-rapidapi/skyscanner-api-tutorial-on-rakuten-rapidapi-5b89acb8be1
 
 
-let country  = US;//req.body.country;
-let currency = USD;//req.body.currency;
-let locale = en-US;//req.body.locale;
-let depart = SFO-sky;//req.body.origin;
-let destination = JFK-sky;//req.body.destination;
-let outbound_date = 2019-09-01;//req.body.outbound_date;
-let inbound_date = 2019-12-01;//req.body.inbound_date;
 
 
 var options = {
